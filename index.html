@@ -47,7 +47,7 @@
 				methods: {
 					allRecords: function(){
 						
-						axios.get('ajaxfile.php')
+						axios.get('users.json')
 						.then(function (response) {
 						    app.users = response.data;
 						})
